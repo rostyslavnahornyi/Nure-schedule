@@ -1,0 +1,44 @@
+:root {
+    --main-color: 255, 255, 255;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    padding-left: 10px;
+    margin: 0 5px 5px 0;
+    position: relative;
+    transition: 0.2s;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+    user-select: text;
+
+    background-color: rgba(var(--main-color), 0.25);
+}
+
+.event::-webkit-scrollbar {
+    display: none;
+}
+
+.event::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgba(var(--main-color), 1);
+}
+
+.event:hover {
+    background-color: rgba(var(--main-color), 0.5);
+    cursor: pointer;
+}

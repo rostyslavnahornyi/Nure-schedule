@@ -1,0 +1,19 @@
+.group {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn-controls {
+        font-size: 30px;
+        padding: 0 15px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .value {
+        font-size: 24px;
+    }
+}

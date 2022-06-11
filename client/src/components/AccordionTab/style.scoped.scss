@@ -1,0 +1,18 @@
+.tab-content {
+    display: flex;
+    padding: 0 10px 10px 10px;
+    align-items: center;
+
+    .text {
+        font-size: 18px;
+        word-break: break-all;
+    }
+
+    .color {
+        min-width: 25px;
+        min-height: 25px;
+        border: 1px solid #2a2a2a;
+        border-radius: 18px;
+        margin-right: 25px;
+    }
+}

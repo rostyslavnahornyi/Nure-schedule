@@ -1,0 +1,46 @@
+* {
+    font-weight: 400;
+    font-size: 24px;
+    user-select: text;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 50vw;
+
+    .title {
+        font-weight: 500;
+        align-self: center;
+        font-size: 32px;
+    }
+
+    .subject {
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+        .title {
+            font-size: 20px;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        li {
+            margin-left: 50px;
+            font-size: 16px;
+        }
+    }
+
+    .details {
+        padding: 0;
+
+        li {
+            margin-left: 50px;
+            font-size: 18px;
+        }
+    }
+}

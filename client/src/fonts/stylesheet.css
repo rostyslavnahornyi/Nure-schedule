@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'NoirPro';
+    src: url('NoirPro-Bold.eot');
+    src: local('☞Noir Pro Bold'), local('NoirPro-Bold'),
+        url('NoirPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NoirPro-Bold.woff2') format('woff2'),
+        url('NoirPro-Bold.woff') format('woff'),
+        url('NoirPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('NoirPro-Heavy.eot');
+    src: local('☞Noir Pro Heavy'), local('NoirPro-Heavy'),
+        url('NoirPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('NoirPro-Heavy.woff2') format('woff2'),
+        url('NoirPro-Heavy.woff') format('woff'),
+        url('NoirPro-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('NoirPro-Medium.eot');
+    src: local('☞Noir Pro Medium'), local('NoirPro-Medium'),
+        url('NoirPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NoirPro-Medium.woff2') format('woff2'),
+        url('NoirPro-Medium.woff') format('woff'),
+        url('NoirPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('NoirPro-Regular.eot');
+    src: local('☞Noir Pro'), local('NoirPro-Regular'),
+        url('NoirPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NoirPro-Regular.woff2') format('woff2'),
+        url('NoirPro-Regular.woff') format('woff'),
+        url('NoirPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NoirPro';
+    src: url('NoirPro-Light.eot');
+    src: local('☞Noir Pro Light'), local('NoirPro-Light'),
+        url('NoirPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('NoirPro-Light.woff2') format('woff2'),
+        url('NoirPro-Light.woff') format('woff'),
+        url('NoirPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

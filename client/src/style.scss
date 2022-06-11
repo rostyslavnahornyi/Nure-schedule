@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "NoirPro";
+    font-weight: 500;
+    font-size: 20px;
+    user-select: none;
+}
+
+.wrapper {
+    .App {
+        display: flex;
+    }
+
+    .for-mobiles {
+        display: none;
+    }
+
+    @media (max-width: 1000px) {
+        .for-mobiles {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;;
+            align-items: center;
+        }
+
+        .App {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+* {
+    font-weight: 400;
+    font-size: 24px;
+    user-select: text;
+}
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50vw;
+
+    .title {
+        font-weight: 500;
+        margin-bottom: 10px;
+        align-self: center;
+        font-size: 32px;
+    }
+
+    .desc {
+        align-self: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    li {
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,66 @@
+.schedule {
+    display: flex;
+    height: 100vh;
+    min-width: 83%;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+
+    .restart {
+        position: absolute;
+        align-items: center;
+        display: flex;
+        margin: 10px;
+        cursor: pointer;
+
+        .last-update-time {
+            display: flex;
+            align-items: flex-end;
+            cursor: auto;
+
+            .date {
+                font-size: 22px;
+            }
+
+            .time {
+                font-size:14px;
+
+            }
+        }
+    }
+
+    .spined {
+        animation: rotating 2s linear infinite;
+
+        @keyframes rotating {
+            from {
+                -ms-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to {
+                -ms-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .main {
+        flex-direction: column;
+        height: calc(100% - 100px);
+        padding: 0 50px 0px 50px;
+        
+        .timetable {
+            height: calc(100% - 30px);
+            display: flex;
+
+            .active {
+                cursor: grabbing;
+            }
+        }
+    }
+}

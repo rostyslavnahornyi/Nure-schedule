@@ -1,0 +1,44 @@
+.times {
+    padding-top: 40px;
+    padding-right: 20px;
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .lesson {
+        height: calc(100% / 5);
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5px;
+
+        .markup {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            row-gap: 12.5%;
+
+            .line {
+                height: 1px;
+                width: 70%;
+                background-color: rgb(187, 187, 187);
+            }
+        }
+
+        .time {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
