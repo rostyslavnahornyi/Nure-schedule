@@ -23,17 +23,19 @@ export const getDatesBetweenTwoDates = (startDate, endDate) => {
 };
 
 export const eventsToDays = (events, days, maxNumberPair) => {
-    const daysEvents = Array.from({ length: days }, () =>
+    const daysEvents = Array.from({ length: days + 1 }, () =>
         Array.from({ length: maxNumberPair }, () => [])
     );
 
     const firstDay = events[0].start_time * 1000;
 
-    events.forEach((event, index) => {
+    events.forEach((event) => {
         const currDay = new Date(event.start_time * 1000);
         const diffInTime = currDay - firstDay;
 
-        const indexDay = Math.floor(diffInTime / (1000 * 60 * 60 * 24));
+        const indexDay = Math.round(diffInTime / (1000 * 60 * 60 * 24));
+        console.log(event.subject_id.title, event.start_time, indexDay);
+
         const indexPair = event.number_pair - 1;
 
         daysEvents[indexDay][indexPair] = [
