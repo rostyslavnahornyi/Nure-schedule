@@ -19,7 +19,7 @@ export const getGroups = () => (dispatch) => {
     dispatch(getGroupsPending());
 
     axios
-        .get("https://nure-schedule-v2.herokuapp.com/groups")
+        .get("https://nure-schedule.onrender/groups")
         .then((response) => dispatch(getGroupsSuccess(response.data)))
         .catch(() => dispatch(getGroupsFail())); // cist isnt working only
 };
