@@ -32,7 +32,7 @@ export const getData = () => (dispatch) => {
         dispatch(getDataPending());
 
         axios
-            .get(`https://nure-schedule.onrender/schedule?id=${currGroupId}`)
+            .get(`https://nure-schedule.onrender.com/schedule?id=${currGroupId}`)
             .then((response) => {
                 const date = new Date().toLocaleString().split(",");
 
